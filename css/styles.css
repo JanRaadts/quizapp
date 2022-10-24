@@ -1,11 +1,16 @@
+@font-face {
+  font-family: "Manrope";
+  src: url("/fonts/Manrope/Manrope-VariableFont_wght.ttf");
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  border: 3px;
-  border-color: pink;
-  border-style: dotted;
+  font-family: Manrope;
+  /* border: 3px;
+  border-color: rgb(255, 0, 43);
+  border-style: dotted; */
 }
 
 ::after,
@@ -15,10 +20,20 @@
   margin: 0;
 }
 
+body {
+  border: 3px;
+  background-color: #00aec3;
+}
+
 header {
   display: flex;
   justify-content: center;
   padding: 15px;
+  background-color: white;
+}
+
+.logo {
+  width: 100px;
 }
 
 h1 {
@@ -27,4 +42,86 @@ h1 {
 
 .card {
   margin: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 255, 0);
+  border-color: black;
+  border-radius: 0;
+  border-style: solid;
+  padding: 30px;
+  border-radius: 10%;
+  background-color: #fec200;
+}
+
+.liste {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.buttonshow {
+  margin: 20px 20px 50px 20px;
+  padding: 15px;
+  border-radius: 20%;
+  background-color: white;
+  border-color: black;
+  font-size: 15px;
+}
+
+.buttonhide {
+  margin: 20px 20px 50px 20px;
+  padding: 15px;
+  border-radius: 20%;
+  background-color: white;
+  border-color: black;
+  font-size: 15px;
+}
+
+.card ul li {
+  margin-left: 5px;
+}
+
+.card ul li button {
+  padding: 3px;
+  border-radius: 15%;
+  background-color: white;
+  border-color: black;
+}
+
+.bookmarkclosed {
+  width: 60px;
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}
+
+.answer {
+  margin: 0px 20px 50px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  height: 65px;
+  padding: 15px;
+}
+
+.logosfooter {
+  width: 40px;
 }
