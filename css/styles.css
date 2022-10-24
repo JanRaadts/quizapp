@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  border: 3px;
+  border-color: pink;
+  border-style: dotted;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+h1 {
+  font-weight: 300;
+}
