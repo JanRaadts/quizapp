@@ -1,0 +1,66 @@
+.card {
+  margin: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgba(0, 0, 255, 0);
+  border-color: black;
+  border-radius: 0;
+  border-style: solid;
+  padding: 30px;
+  border-radius: 10%;
+  background-color: #fec200;
+  margin: 20px;
+}
+
+.liste {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+
+.buttonshow {
+  margin: 20px 20px 50px 20px;
+  padding: 15px;
+  border-radius: 20%;
+  background-color: white;
+  border-color: black;
+  font-size: 15px;
+}
+
+.buttonhide {
+  margin: 20px 20px 50px 20px;
+  padding: 15px;
+  border-radius: 20%;
+  background-color: white;
+  border-color: black;
+  font-size: 15px;
+}
+
+.card ul li {
+  margin-left: 5px;
+}
+
+.card ul li button {
+  padding: 3px;
+  border-radius: 15%;
+  background-color: white;
+  border-color: black;
+}
+
+.bookmarkclosed {
+  width: 60px;
+  position: absolute;
+  top: -20px;
+  right: 10px;
+}
+
+.answer {
+  margin: 0px 20px 50px 20px;
+}
