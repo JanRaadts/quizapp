@@ -56,6 +56,7 @@ h1 {
   padding: 30px;
   border-radius: 10%;
   background-color: #fec200;
+  margin: 20px;
 }
 
 .liste {
@@ -119,9 +120,27 @@ footer {
   width: 100%;
   background-color: white;
   height: 65px;
-  padding: 15px;
+  padding: 5px;
 }
 
 .logosfooter {
-  width: 40px;
+  width: 50px;
+  padding: 5px;
+}
+
+.logohighlight {
+  border: 2px;
+  border-color: black;
+  border-style: dotted;
+  border-radius: 20%;
+}
+
+.aboutmebild {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-evenly;
 }
