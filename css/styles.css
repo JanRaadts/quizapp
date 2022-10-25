@@ -131,8 +131,9 @@ footer {
 .logohighlight {
   border: 2px;
   border-color: black;
-  border-style: dotted;
+  border-style: solid;
   border-radius: 20%;
+  background-color: #fec200;
 }
 
 .aboutmebild {
