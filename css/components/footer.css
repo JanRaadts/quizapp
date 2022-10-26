@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  height: 65px;
+  padding: 5px;
+}
+
+.logosfooter {
+  width: 50px;
+  padding: 5px;
+}
+
+.logohighlight {
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20%;
+  background-color: #fec200;
+}

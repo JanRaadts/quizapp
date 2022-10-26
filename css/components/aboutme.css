@@ -1,0 +1,9 @@
+.aboutmebild {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: space-evenly;
+}
