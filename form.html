@@ -21,6 +21,7 @@
           <legend>Erstelle deine eigene Quizaufgabe</legend>
           <label for="frage" class="formElemente">Deine Frage:</label>
           <textarea
+            maxlength="150"
             class="formElemente"
             name="frage"
             id="frage"
@@ -28,9 +29,11 @@
             rows="4"
             class="inputElemente"
           ></textarea>
+          <p class="display" data-js="display"></p>
 
           <label for="antwort" class="formElemente">Deine Antwort:</label>
           <textarea
+            maxlength="150"
             class="formElemente"
             name="antwort"
             id="antwort"
@@ -38,6 +41,7 @@
             rows="4"
             class="inputElemente"
           ></textarea>
+          <p class="display" data-js="display2"></p>
 
           <label for="tag" class="formElemente">Tag:</label>
           <input

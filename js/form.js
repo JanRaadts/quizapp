@@ -1,5 +1,20 @@
 const form = document.querySelector('[data-js="form"]');
 const main = document.querySelector("main");
+const quest = form.frage;
+const answ = form.antwort;
+const display = document.querySelector('[data-js="display"]');
+const display2 = document.querySelector('[data-js="display2"]');
+
+quest.addEventListener("input", () => {
+  console.log(form);
+  let zeichenZahl = 150 - quest.value.length;
+  display.textContent = `Du hast noch ${zeichenZahl}`;
+});
+
+answ.addEventListener("input", () => {
+  let zeichenZahl2 = 150 - answ.value.length;
+  display2.textContent = `Du hast noch ${zeichenZahl2}`;
+});
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();

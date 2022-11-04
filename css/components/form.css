@@ -24,3 +24,7 @@ fieldset {
   border-radius: 10px;
   border: white 2px solid;
 }
+
+.display {
+  color: greenyellow;
+}
