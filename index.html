@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script src="./js/index.js" defer></script>
     <title>Quizzy</title>
   </head>
   <body>
@@ -14,46 +15,31 @@
         class="logo"
       />
     </header>
-    <section class="card" class="cardclosed">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-        cupiditate. Cum officiis consectetur amet ab libero error necessitatibus
-        ea facilis maiores excepturi quidem in, obcaecati, culpa asperiores.
-        Voluptatum, rem dolore?
-      </p>
-      <button type="button" class="buttonshow">Show Answer</button>
-      <ul class="liste">
-        <li><button type="button">#html</button></li>
-        <li><button type="button">#flexbox</button></li>
-        <li><button type="button">#css</button></li>
-      </ul>
-      <img
-        src="/pictures/kisspng-bookmark-computer-icons-like-button-instagram-face-5ada502def3d14.3322865215242568139799.png"
-        class="bookmarkclosed"
-      />
-    </section>
+
+    <!-- //karte 1 -->
     <section class="card" class="cardopen">
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-        cupiditate. Cum officiis consectetur amet ab libero error necessitatibus
-        ea facilis maiores excepturi quidem in, obcaecati, culpa asperiores.
-        Voluptatum, rem dolore?
-      </p>
-      <button type="button" class="buttonhide">Show Answer</button>
-      <p class="answer">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-        cupiditate. Cum officiis consectetur amet ab libero error necessitatibus
-        ea facilis maiores excepturi quidem in, obcaecati, culpa asperiores.
-        Voluptatum, rem dolore?
-      </p>
+      <p>Ist diese Quizz App die coolste Quizzapp im World Wide Web?</p>
+      <button type="button" class="buttonhide" data-js="btnCard1">
+        Show Answer
+      </button>
+      <p class="answer" data-js="lösung" class="lösung" hidden>Natürlich!</p>
       <ul class="liste">
         <li><button type="button">#html</button></li>
         <li><button type="button">#flexbox</button></li>
         <li><button type="button">#css</button></li>
       </ul>
-      <img src="/pictures/vollebookmark.png" class="bookmarkclosed" />
+      <button type="button" data-js="bookmarkBtn">
+        <img
+          src="/pictures/kisspng-bookmark-computer-icons-like-button-instagram-face-5ada502def3d14.3322865215242568139799.png"
+          class="bookmarkclosed"
+          data-js="bookmark"
+        />
+      </button>
     </section>
-    <section class="card" class="cardclosed">
+
+    <!-- //karte 2 -->
+
+    <!-- <section class="card" class="cardclosed">
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
         cupiditate. Cum officiis consectetur amet ab libero error necessitatibus
@@ -70,7 +56,7 @@
         src="/pictures/kisspng-bookmark-computer-icons-like-button-instagram-face-5ada502def3d14.3322865215242568139799.png"
         class="bookmarkclosed"
       />
-    </section>
+    </section> -->
     <br />
     <br />
     <br />
@@ -82,6 +68,11 @@
         <a href="/bookmarks.html"
           ><img
             src="/pictures/kisspng-bookmark-computer-icons-like-button-instagram-face-5ada502def3d14.3322865215242568139799.png"
+            class="logosfooter"
+        /></a>
+        <a href="/form.html"
+          ><img
+            src="/pictures/add_FILL0_wght400_GRAD0_opsz48.png"
             class="logosfooter"
         /></a>
         <a href="/profile.html"

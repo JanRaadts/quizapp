@@ -1,0 +1,26 @@
+form {
+  padding: 20px;
+}
+
+fieldset {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formElemente {
+  padding: 5px;
+}
+
+.erstellenBTN {
+  padding: 5px;
+  margin: 10px;
+}
+
+.inputElemente {
+  border-radius: 10px;
+  border: white 2px solid;
+}
